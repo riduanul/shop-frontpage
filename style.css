@@ -1,0 +1,194 @@
+.bg{
+    background:#1A187A;
+   
+}
+.navbar img{
+    width: 100%;
+    color:white;
+    ;
+}
+.navbar {
+    min-height: 50px; /* Adjust the height as needed */
+    color: white;
+    justify-content: space-evenly;
+    padding-left: 120px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.navbar-nav {
+    padding-top: 0.5rem; /* Adjust the top padding as needed */
+    padding-bottom: 0.5rem; /* Adjust the bottom padding as needed */
+}
+
+
+.banner{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    background: linear-gradient(to bottom right, #f6c1e7a6, rgb(160, 163, 252)), 50% / cover no-repeat;
+}
+.banner img{
+    height: 70vh;
+}
+
+.banner-text{
+    line-height: 40px;
+}
+.display-section{
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+.left-section{
+    height: 500px;
+    align-items: center;
+}
+.ipad-section{
+    position:relative;
+    left:-74px;
+    align-items: center;
+}
+.ipad-section img{
+    width: 350px;
+}
+.headphone-section{
+    align-items: center
+}
+.headphone-section img{
+    width: 350px;
+    height: 270px;
+}
+.right-section{
+    overflow-x: hidden;
+    background-color: rgba(162, 194, 204, 0.179) ;
+    height: 500px;
+}
+.right-section img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.category{
+    margin-top: 20px;
+    width: 150px;
+    background-color: rgb(244, 233, 233);
+    height: 130px;
+    text-align: center;
+    padding: 15px;
+    line-height: 60x;
+    border-radius: 10px;
+}
+.category >  .fa-solid{
+    font-size: 60px;
+}
+
+.category-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.category-card img{
+    width: 120px;
+}
+
+.sale-section{
+    background-color: #958ad4;
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+.sale-section img{
+    width: 350px;
+}
+
+footer{
+    background-color:#0e071b;
+    color: white;
+}
+.footer-container img{
+    margin-top: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+.footer-container{
+    padding: 30px;
+}
+.footer-container li{
+    list-style: none;
+    line-height: 40px;
+}
+footer > p{
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .headphone-section{
+        background-color: #ADC2D7 ;
+        margin-top: -20px;
+        position: absolute;
+        width: 550px;
+    
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+       }
+    .display-section{
+        display: flex;
+        flex-direction: row;
+        row-gap: 15px;
+    }
+
+    .ipad-section{
+        display: flex;
+        flex-direction: row;
+        row-gap: 20px;
+        /* position: absolute; */
+    }
+    .headphone-section{
+        background-color: #ADC2D7 ;
+        margin-top: -20px;
+        position:static;
+        width: 100%;
+        text-align: center;
+        
+    
+    }
+    .headphone-section img{
+        width: 100%;
+        /* position: static;  */
+    }
+
+    .right-section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .category-section{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+
